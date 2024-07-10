@@ -3,7 +3,6 @@ import { stringify } from "postcss";
 export default async function UsersPage() {
   const db = dbConnect();
   const users = (await db.query("SELECT * FROM users")).rows;
-  console.log(users);
   return (
     <div>
       <h1>List of Users:</h1>
