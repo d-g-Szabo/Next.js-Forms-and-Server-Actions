@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Animation from "@/components/Animation";
-
 import coasterRoller from "@/../public/coasterRoller.jpg";
 
-export default function Home() {
+export default function TestPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1>Coaster Rollers</h1>
@@ -23,15 +22,3 @@ export default function Home() {
     </main>
   );
 }
-
-// in next.config.mjs file:
-// images: {
-//     remotePatterns: [
-//       {
-//         protocol: "https",
-//         hostname: "images.unsplash.com",
-//         port: "",
-//         pathname: "**",
-//       },
-//     ],
-//   },
