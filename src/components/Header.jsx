@@ -15,6 +15,11 @@ export default function Header() {
           Rollers
         </Link>
         <br />
+        <Link href="/newRoller" className="text-green-700 font-extrabold">
+          Add a New Roller!
+        </Link>
+
+        <br />
         <Link href="/users" className="text-blue-700 font-extrabold">
           Users
         </Link>
